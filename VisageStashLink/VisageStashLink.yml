@@ -1,0 +1,8 @@
+name: Visage Stash Link
+description: Adds a right-click menu to Visage performer result cards for opening matching local Stash performer profiles.
+version: 1.1.0
+ui:
+  javascript:
+    - VisageStashLink.js
+
+
