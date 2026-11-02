@@ -49,10 +49,11 @@ In Stash, open **Settings -> Plugins -> Available Plugins -> Add Source** and
 add:
 
 ```text
-https://raw.githubusercontent.com/MrX-Builds/Visage-Stash-Link/main/index.yml
+https://mrx-builds.github.io/Visage-Stash-Link/main/index.yml
 ```
 
-Reload the available plugins, find **Visage Stash Link**, and install it.
+Reload the available plugins, find **Visage Stash Link**, and install it. The
+index and installable ZIP are automatically published through GitHub Pages.
 
 Visage must also be installed and enabled.
 
@@ -102,8 +103,8 @@ the database. It does not modify or replace Visage.
 
 ## Compatibility and testing
 
-Version 1.1.0 was built against Visage 2.10.0 and its current performer-card
-implementation. It has been used successfully in a live Stash installation.
+Version 1.1.0 was human-tested against Visage 2.10.0. Visage 2.10.1 changes only
+scene-list menu placement and leaves the performer-card path used here unchanged.
 
 Automated Chromium smoke tests cover:
 
@@ -121,3 +122,9 @@ future interface change may require a compatibility update.
 MIT. See [LICENSE](LICENSE).
 
 
+
+## LLM-assisted development disclosure
+
+Version 1.1.0 was developed with LLM assistance. The maintainer reviewed the
+resulting plugin, human-tested both navigation paths in a live Stash
+installation, and accepts responsibility for the code and license compliance.
