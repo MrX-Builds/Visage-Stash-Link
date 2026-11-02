@@ -1,0 +1,11 @@
+- id: VisageStashLink
+  name: Visage Stash Link
+  version: 1.1.0
+  date: 2026-11-03
+  path: https://github.com/MrX-Builds/Visage-Stash-Link/releases/download/v1.1.0/VisageStashLink_v1.1.0.zip
+  sha256: c5e80aa50fd605d2ac3613242522c4d629a2aa0ca442d38ae5fb14cd0e7de560
+  metadata:
+    description: Right-click Visage performer cards to open matching local Stash profiles or continue to the external source.
+    homepage: https://github.com/MrX-Builds/Visage-Stash-Link
+
+
